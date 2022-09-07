@@ -43,6 +43,8 @@ iframe#tela {
 
     height: 470px;
     width: 266px;
+    /* transform: translate(8%, 17%); outra opção para centralizar */
+
 }
 
 section#redes-sociais {
