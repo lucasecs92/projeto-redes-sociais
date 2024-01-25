@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 
 html, body {
@@ -44,7 +45,6 @@ iframe#tela {
     height: 470px;
     width: 266px;
     /* transform: translate(8%, 17%); outra opção para centralizar */
-
 }
 
 section#redes-sociais {
@@ -66,3 +66,10 @@ section#redes-sociais img:hover {
     transform: translate(-5px, -5px);
     transition: transform 1s;
 }
+
+@media (max-width: 500px) {
+
+    section#redes-sociais {
+        display: flex;
+    }
+} 
