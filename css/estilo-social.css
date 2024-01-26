@@ -24,6 +24,10 @@ a {
     background-size: cover;
 }
 
-a:active {
+a:hover {
     background-color: rgb(164, 80, 248);
+}
+
+a:active {
+    background-color: rebeccapurple;
 }
